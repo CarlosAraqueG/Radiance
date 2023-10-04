@@ -10,7 +10,7 @@
 }
 
 body {
-    /*background-color: #FEFEFE; */
+    background-color: #FEFEFE; 
     background-image: url(img/background.webp);
     background-repeat: repeat;
     background-position:100% ;
@@ -40,12 +40,7 @@ a:hover {
 /*ENCABEZADO*/
 
 header {
-    /*background-color: #F3D8CF;*/
-    background-image: url(img/background.webp);
-    background-repeat: repeat;
-    background-position:100% ;
-    background-attachment: scroll;
-    background-size: cover;
+    background-color: #F3D8CF;
     font-size: 25px;
     color: #837660;
     position: fixed;
@@ -124,6 +119,7 @@ main {
 
 .contenido {
     padding: 20px;
+
 }
 
 .producto_grid {
@@ -137,6 +133,11 @@ main {
     padding: 20px;
     width: 300px;
     color: #22211f;
+    background-image: url(img/background.webp);
+    background-repeat: repeat;
+    background-position:100% ;
+    background-attachment: scroll;
+    background-size: cover;
 
 
 }
@@ -150,8 +151,9 @@ main {
     color: #fff;
     background-color: #BF7F11;
     font-weight: bold;
+    margin-top: 10px;;
     padding: 3px;
-    text-align: center;
+    text-align: left;
     border: 2px solid #000000;
     border-radius: 100px 10px / 120px;
     cursor: pointer;
@@ -160,16 +162,21 @@ main {
 
 /*FOOTER*/
 
-footer {
+#pie_de_pagina {
     clear: both;
+    display: flex;
     padding: 10px;
     background-color: #F3D8CF;
     font-size: 15px;
     color: #BF7F11;
-    display: flex;
-    flex-direction: row;
-    border: solid 1px red;
+    
 }
+
+.contactos
+{display: flex;
+flex-direction: column;
+align-items: flex-start;}
+
 
 
 /* Estilos para pantallas más pequeñas (hasta 768px) */

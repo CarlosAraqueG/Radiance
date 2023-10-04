@@ -165,10 +165,12 @@ main {
 #pie_de_pagina {
     clear: both;
     display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
     padding: 10px;
     background-color: #F3D8CF;
     font-size: 15px;
-    color: #BF7F11;
+
     
 }
 
@@ -176,6 +178,18 @@ main {
 {display: flex;
 flex-direction: column;
 align-items: flex-start;}
+
+.autor
+{
+margin-top: 10px;
+padding: 2px;
+display: block;
+align-items: right;
+background-color: rgb(112, 84, 13);
+color: white;
+font-size: 10px;
+
+}
 
 
 
